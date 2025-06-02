@@ -11,6 +11,18 @@ body {
     color: #F5F5F5;
 }
 
+#seleccionar_pokemon {
+    display: none;
+    margin: 15px;
+    padding: 10px;
+    gap: 15px;
+    width: fit-content;
+    background-color: #F5F5F5;
+    border: #00FFFF solid 3px;
+    border-radius: 8px;
+    color: black
+}
+
 /* Textos principales */
 h1,
 h2,
@@ -21,6 +33,11 @@ h3 {
 
 p {
     color: #F5F5F5;
+}
+
+/* esto es un p */
+#expectativas {
+    margin-bottom: 10px;
 }
 
 /* Enlaces */
@@ -79,7 +96,7 @@ main {
     width: 70vw;
     background-color: #222;
     border-radius: 10px;
-    padding: 40px 20px 20px 40px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
 }
