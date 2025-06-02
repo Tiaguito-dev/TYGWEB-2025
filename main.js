@@ -30,7 +30,7 @@ function makeCard(character) {
     const characterImage = document.createElement("img");
     characterImage.src = image;
     characterImage.setAttribute('style', `
-        height: 20vw;
+        height: 250px;
     `);
 
     //creamos el contenedor de la tarjeta
